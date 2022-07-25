@@ -1,0 +1,15 @@
+.comp-container {
+  height: 100px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #1a1a1d;
+}
+.comp-champions-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-content: center;
+}

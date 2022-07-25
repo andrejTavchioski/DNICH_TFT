@@ -1,0 +1,37 @@
+.navbar {
+  margin: 40px 200px;
+  padding: 5px 70px;
+  background-color: #6f2232;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 5;
+}
+.navbar-item {
+  display: inline-block;
+  font-weight: 500;
+  font-size: x-large;
+  color: white;
+  z-index: 20;
+}
+#logo-left {
+  left: 70px;
+  top: 10px;
+}
+#logo-right {
+  right: 70px;
+  top: 10px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.penguin {
+  position: absolute;
+  height: 130px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

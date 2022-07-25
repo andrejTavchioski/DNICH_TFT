@@ -1,0 +1,30 @@
+.card_trait {
+  margin: 10px 20px 10px 10px;
+  border: 4px black solid;
+  border-radius: 10px;
+  padding: 0px;
+  display: inline-block;
+  height: 170px;
+  width: 85%;
+  font-size: 15px;
+}
+.card_head {
+  padding: 5px 20px;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
+  justify-content: space-between;
+}
+.trait_name {
+  margin-top: 0px;
+}
+.trait_image {
+  margin-top: -5px;
+}
+.card_body {
+  padding: 10px 20px;
+}
+.trait_bonus {
+  margin-bottom: 10px;
+}

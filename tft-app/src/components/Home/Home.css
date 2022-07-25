@@ -1,0 +1,36 @@
+.home_logo {
+  width: 60%;
+  height: 300px;
+  margin: -120px 200px;
+}
+
+.content_text_container {
+  padding: 0 10px;
+  height: 430px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a1a1d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1a1a1d;
+}
+
+.origins_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

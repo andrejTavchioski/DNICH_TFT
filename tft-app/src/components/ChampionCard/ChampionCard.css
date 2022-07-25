@@ -1,0 +1,58 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  display: grid;
+  width: 70px;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+.tooltip-text {
+  /* Position the tooltip */
+  position: absolute;
+  bottom: -30px;
+  left: -15px;
+  z-index: 1;
+}
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+.champion-img {
+  height: 60px;
+  width: 60px;
+}
+.champion-name {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+.tooltip-icon {
+  height: 30px;
+  margin: 5px;
+}
+.items-text {
+  margin-left: 5px;
+  height: 20px;
+  font-size: 16px;
+}
+.champion-card {
+  background-color: #1a1a1d;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 100px;
+  width: 80px;
+}

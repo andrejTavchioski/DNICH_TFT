@@ -1,0 +1,101 @@
+.champion-container {
+  display: grid;
+  grid-template-columns: 30% 65%;
+}
+.champion-left {
+  display: grid;
+  grid-template-rows: 65% 30%;
+}
+.champion-left-img-container {
+  display: grid;
+  grid-template-rows: 75% 25%;
+  margin-left: -80px;
+}
+.champion-left-img {
+  margin: 20px auto;
+  width: 200px;
+}
+.champion-left-title {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+.champion-left-build-title {
+  color: white;
+  font-size: large;
+}
+.champion-left-build {
+  display: grid;
+  grid-template-rows: 20% 60%;
+}
+.champion-left-items {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.champion-left-item {
+  display: inline-block;
+}
+.champion-info {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.champion-ability {
+  margin-top: 15px;
+}
+.champion-ability-name {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.champion-ability-description {
+  margin-left: 20px;
+  font-size: 16px;
+}
+.champion-stats {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+}
+.price {
+  display: inline-block;
+  margin-left: 20px;
+}
+.price-icon {
+  margin-left: 20px;
+}
+.classes {
+  display: inline-block;
+}
+.class {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.origin {
+  font-size: 18px;
+  display: inline-block;
+  margin: 0px 3px;
+}
+.traits {
+  display: grid;
+  grid-template-columns: 45% 45%;
+}
+.goes-well {
+  display: grid;
+  grid-template-columns: 30% 20% 20% 20%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.goes-well-title {
+  margin-top: 40px;
+}
+.counters {
+  display: grid;
+  grid-template-columns: 30% 20% 20% 20%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.goes-well-title {
+  margin-top: 40px;
+}

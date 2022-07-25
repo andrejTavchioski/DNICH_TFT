@@ -1,0 +1,18 @@
+input {
+  margin: 10px 5px;
+  border-radius: 10px;
+  height: 25px;
+}
+.search {
+  position: absolute;
+  left: 43%;
+  top: 140px;
+}
+.champions_container {
+  padding: 10px 20px;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow-y: scroll;
+  height: 420px;
+}
