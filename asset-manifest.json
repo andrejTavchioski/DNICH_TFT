@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DNICH_TFT/static/css/main.c34499e4.css",
-    "main.js": "/DNICH_TFT/static/js/main.5e5984fb.js",
+    "main.js": "/DNICH_TFT/static/js/main.6aab3658.js",
     "static/js/787.1fb14c1c.chunk.js": "/DNICH_TFT/static/js/787.1fb14c1c.chunk.js",
     "static/media/TFT_Logotype_Horiz_White.png": "/DNICH_TFT/static/media/TFT_Logotype_Horiz_White.4988211ed7e2ca4412fd.png",
     "static/media/penguin.png": "/DNICH_TFT/static/media/penguin.0a7ccb3f27423749b096.png",
     "index.html": "/DNICH_TFT/index.html",
     "main.c34499e4.css.map": "/DNICH_TFT/static/css/main.c34499e4.css.map",
-    "main.5e5984fb.js.map": "/DNICH_TFT/static/js/main.5e5984fb.js.map",
+    "main.6aab3658.js.map": "/DNICH_TFT/static/js/main.6aab3658.js.map",
     "787.1fb14c1c.chunk.js.map": "/DNICH_TFT/static/js/787.1fb14c1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c34499e4.css",
-    "static/js/main.5e5984fb.js"
+    "static/js/main.6aab3658.js"
   ]
 }
