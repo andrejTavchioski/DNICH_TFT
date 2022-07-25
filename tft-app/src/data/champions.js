@@ -18,7 +18,7 @@ const champions = [
   {
     name: "Elise",
     avatar:
-      "https://am-a.akamaihd.net/image?f=https://news-a.akamaihd.net/public/images/articles/2019/june/tftcompendium/Champions/Elise.png&resize=64:",
+      "https://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Elise.png",
     price: 1,
     origin: ["Demon"],
     class: ["Shapeshifter"],
