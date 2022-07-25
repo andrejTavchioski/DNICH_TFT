@@ -13,12 +13,12 @@ const Layout = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route exact path="/DNICH_TFT" element={<Home />} />
-          <Route exact path="/DNICH_TFT/champions" element={<Champions />} />
-          <Route path="/DNICH_TFT/champions/:champ" element={<ChampionView />} />
-          <Route exact path="/DNICH_TFT/items" element={<Items />} />
-          <Route path="/DNICH_TFT/items/:item" element={<ItemView />} />
-          <Route path="/DNICH_TFT/comps" element={<Comps />}></Route>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/champions" element={<Champions />} />
+          <Route path="/champions/:champ" element={<ChampionView />} />
+          <Route exact path="/items" element={<Items />} />
+          <Route path="/items/:item" element={<ItemView />} />
+          <Route path="/comps" element={<Comps />}></Route>
         </Routes>
       </BrowserRouter>
     </>
