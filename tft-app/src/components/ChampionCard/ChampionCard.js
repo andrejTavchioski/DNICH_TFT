@@ -3,7 +3,7 @@ import "./ChampionCard.css";
 import { Link } from "react-router-dom";
 const ChampionCard = ({ champion }) => {
   return (
-    <Link to={`/champions/${champion.name}`}>
+    <Link to={`/DNICH_TFT/champions/${champion.name}`}>
       <div className="champion-card tooltip">
         <img className="champion-img" src={champion.avatar}></img>
         <div className="champion-name">{champion.name}</div>

@@ -9,16 +9,16 @@ const Header = () => {
         <img id="logo-left" className="penguin" src={penguinLogo}></img>
         <ul className="navbar-list">
           <li className="navbar-item">
-            <Link to={"/"}>Home</Link>
+            <Link to={"/DNICH_TFT"}>Home</Link>
           </li>
           <li className="navbar-item">
-            <Link to={"/champions"}>Champions</Link>
+            <Link to={"/DNICH_TFT/champions"}>Champions</Link>
           </li>
           <li className="navbar-item">
-            <Link to={"/items"}>Items</Link>
+            <Link to={"/DNICH_TFT/items"}>Items</Link>
           </li>
           <li className="navbar-item">
-            <Link to={"/comps"}>Final Comps</Link>
+            <Link to={"/DNICH_TFT/comps"}>Final Comps</Link>
           </li>
           <li className="navbar-item">Quiz</li>
         </ul>

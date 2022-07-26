@@ -3,7 +3,7 @@ import "./ItemCard.css";
 import { Link } from "react-router-dom";
 const ItemCard = ({ item}) => {
   return (
-    <Link to={`/items/${item.name.replaceAll(" ","")}`}>
+    <Link to={`/DNICH_TFT/items/${item.name.replaceAll(" ","")}`}>
         <div className="item-card tooltip-item">
           <img className="item-img" src={item.image}></img>
           <div className="item-name">{item.name}</div>
