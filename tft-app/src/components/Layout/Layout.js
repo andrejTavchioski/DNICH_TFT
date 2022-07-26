@@ -13,7 +13,7 @@ const Layout = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/DNICH_TFT" element={<Home />} />
           <Route exact path="/champions" element={<Champions />} />
           <Route path="/champions/:champ" element={<ChampionView />} />
           <Route exact path="/items" element={<Items />} />
