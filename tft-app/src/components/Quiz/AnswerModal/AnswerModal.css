@@ -1,0 +1,41 @@
+.modal-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 5;
+}
+.modal {
+  height: 150px;
+  width: 500px;
+  background-color: #6f2232;
+  opacity: 1;
+  z-index: 6;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  padding: 20px;
+}
+.modal-status {
+  font-size: x-large;
+  font-weight: 500;
+  text-align: center;
+}
+.bottom {
+  margin-top: 10px;
+  font-size: large;
+  text-align: center;
+}
+.next-question {
+  background-color: #950740;
+  width: 100px;
+  position: absolute;
+  bottom: 10%;
+  left: 41%;
+}
+.explanation {
+  margin-top: 10px;
+}

@@ -190,7 +190,7 @@
       "class": ["Ranger"],
       "goesWellWith": ["Varus", "Braum"],
       "counters": ["Garen", "Darius"],
-      "items": ["Guinsoos Rageblade", "Statik Shyv", "Rapidfire Cannon"],
+      "items": ["Guinsoos Rageblade", "Statik Shiv", "Rapidfire Cannon"],
       "ability": {
         "name": "Enchanted Crystal Arrow",
         "description": "Ashe fires an arrow that stuns and damages the farthest enemy. The stun is longer the farther the enemy. Damage : 200 / 400 / 600. Stun Duration : 1 / 1.5 / 2"
@@ -595,7 +595,7 @@
       "class": ["Assassin"],
       "goesWellWith": ["Warwick", "Nidalee", "Katarina"],
       "counters": ["Sejuani", "Leona", "ChoGath"],
-      "items": ["Infinity Edge", "Rapidfire Cannon", "Last Whisper"],
+      "items": ["Infinity Edge", "RapidFire Cannon", "Last Whisper"],
       "ability": {
         "name": "Savagery",
         "description": "Rengar leaps to the lowest health enemy and stabs them for bonus on-hit damage. After dealing damage, Rengar gains Attack Speed and 25% Critical Strike Chance. Attack Damage Scaling : 200% / 300% / 400%. Attack Speed : 30% / 50% / 70%"
@@ -876,7 +876,7 @@
       "name": "Recurve Bow",
       "buildsInto": [
         "Runaans Hurricane",
-        "Rapidfire Cannon",
+        "RapidFire Cannon",
         "Titans Resolve",
         "Quicksilver",
         "Chalice of Power",
@@ -1039,7 +1039,7 @@
       "image": "https://rerollcdn.com/items/LastWhisper.png"
     },
     {
-      "name": "Rapidfire Cannon",
+      "name": "RapidFire Cannon",
       "components": ["Recurve Bow", "Recurve Bow"],
       "description": "Grant 40% bonus Attack Speed (including components) and 1 Attack Range. Attacks cannot miss.",
       "stats": "20% Attack Speed",

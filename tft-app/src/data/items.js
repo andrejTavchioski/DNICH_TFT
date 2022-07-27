@@ -8,6 +8,14 @@ const items = [
     bestBuiltOn: ["Anivia", "Aurelion Sol", "Brand"],
   },
   {
+    name: "Titans Resolve",
+    components: ["Recurve Bow", "Chain Vest"],
+    description: "When the wearer basic attacks or takes damage from any source, grants 2 bonus attack damage and 2 ability power for the rest of combat, stacking up 25 times. At maximum stacks gain 25 bonus armor and bonus magic resistance",
+    stats: "10% Attack Speed, 20 Armor",
+    image: "https://rerollcdn.com/items/TitansResolve.png",
+    bestBuiltOn: ["Kassadin", "Gangplank", "Graves"],
+  },
+  {
     name: "Redemption",
     components: ["Tear of the Goddess", "Giants Belt"],
     description:
@@ -35,7 +43,7 @@ const items = [
     bestBuiltOn: ["Anivia", "Akali", "Lissandra"],
   },
   {
-    name: "Statik Shyv",
+    name: "Statikk Shiv",
     components: ["Tear of the Goddess", "Recurve Bow"],
     description:
       "Grant 15% Attack Speed. Every 3rd attack shocks 4 enemies for 70 magic damage and reduces their Maigc Resist by 50% for 5 seconds.",

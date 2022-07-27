@@ -1,0 +1,17 @@
+.question-container {
+  margin: 30px;
+}
+.restart-button {
+  height: 30px;
+  width: 150px;
+  background-color: #950740;
+  text-align: center;
+  margin-left: 495px;
+  margin-top: 80px;
+}
+.restart-button:hover {
+  cursor: pointer;
+}
+.restart-button-text {
+  padding-top: 3px;
+}

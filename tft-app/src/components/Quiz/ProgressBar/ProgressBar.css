@@ -1,0 +1,13 @@
+.bar {
+  color: white;
+  background-color: #f984ef;
+  margin: 10px 30px 20px 30px;
+  position: relative;
+}
+.progress-text {
+  position: absolute;
+  left: 48%;
+  font-size: x-large;
+  font-weight: 500;
+  margin-top: 2px;
+}

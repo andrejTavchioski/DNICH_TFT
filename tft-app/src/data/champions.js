@@ -8,7 +8,7 @@ const champions = [
     class: ["Ranger"],
     goesWellWith: ["Elise", "Aatrox", "Morgana"],
     counters: ["Blitzcrank", "Poppy"],
-    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapid Firecannon"],
+    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapidfire Cannon"],
     ability: {
       name: "Piercing Arrow",
       description:
@@ -215,11 +215,11 @@ const champions = [
     class: ["Ranger"],
     goesWellWith: ["Varus", "Braum"],
     counters: ["Garen", "Darius"],
-    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapid Firecannon"],
+    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapidfire Cannon"],
     ability: {
       name: "Enchanted Crystal Arrow",
       description:
-        "Ashe fires an arrow that stuns and damages the farthest enemy. The stun is longer the farther the enemy. Damage : 200 / 400 / 600. Stun Duration : 1 / 1.5 / 2",
+        "Ashe fires an arrow that stuns and damages the farthest enemy. The stun is longer the farther the enemy. Damage : 200 / 400 / 600. Stun Duration : 1 / 1.5 / 2 s",
     },
   },
   {
@@ -231,7 +231,7 @@ const champions = [
     class: ["Brawler"],
     goesWellWith: ["Ashe", "ChoGath"],
     counters: ["Vayne"],
-    items: ["Guinsoos Rageblade", "Rapid Firecannon", "Morellonomicon"],
+    items: ["Guinsoos Rageblade", "Rapidfire Cannon", "Morellonomicon"],
     ability: {
       name: "Thunder Claws",
       description:
@@ -375,7 +375,7 @@ const champions = [
     class: ["Ranger"],
     goesWellWith: ["Varus", "Garen"],
     counters: ["Zed", "Evelynn", "Akali"],
-    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapid Firecannon"],
+    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapidfire Cannon"],
     ability: {
       name: "Silver Bolts",
       description:
@@ -599,7 +599,7 @@ const champions = [
     class: ["Ranger"],
     goesWellWith: ["Vayne", "Mordekeiser", "Karthus"],
     counters: ["Kassadin", "Sejuani", "Leona"],
-    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapid Firecannon"],
+    items: ["Guinsoos Rageblade", "Statikk Shiv", "Rapidfire Cannon"],
     ability: {
       name: "Lamb's Respite",
       description:
@@ -679,7 +679,7 @@ const champions = [
     class: ["Assassin"],
     goesWellWith: ["Warwick", "Nidalee", "Katarina"],
     counters: ["Sejuani", "Leona", "ChoGath"],
-    items: ["Infinity Edge", "Rapid Firecannon", "Last Whisper"],
+    items: ["Infinity Edge", "Rapidfire Cannon", "Last Whisper"],
     ability: {
       name: "Savagery",
       description:
@@ -725,6 +725,7 @@ const champions = [
     price: 1,
     origin: ["Void"],
     class: ["Sorcerer"],
+    goesWellWith: ["Lulu", "Veigar", "RekSai"],
     counters: ["Camille", "Fiora", "Aatrox"],
     items: ["Titans Resolve", "Ionic Spark", "Frozen Heart"],
     ability: {

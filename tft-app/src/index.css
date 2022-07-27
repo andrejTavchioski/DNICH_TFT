@@ -30,3 +30,10 @@ code {
 div {
   color: white;
 }
+.button:hover {
+  cursor: pointer;
+  background-color: #c50653;
+}
+.link-active {
+  color: #c3073f;
+}

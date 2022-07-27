@@ -16,7 +16,7 @@ const ChampionCard = ({ champion }) => {
                 src={`https://rerollcdn.com/items/${item.replaceAll(
                   " ",
                   ""
-                )}.png`}
+                ).replaceAll("RapidfireCannon","RapidFirecannon")}.png`}
               ></img>
             ))}
           </div>
