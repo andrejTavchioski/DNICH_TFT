@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl#me> ;
+  foaf:primaryTopic <https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Andrej Tavchioski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Andrej" ;
+  foaf:family_name "Tavchioski" ;
+  foaf:nick "Tavcho" ;
+  foaf:mbox_sha1sum "0df188c43f9478a314f0c2dbba3a62f58d3d0901" ;
+  foaf:homepage <https://www.facebook.com/tavcioski/> ;
+  foaf:depiction <https://cdn-icons-png.flaticon.com/512/25/25231.png> ;
+  foaf:phone <tel:+38975500000> ;
+  foaf:workplaceHomepage <https://www.netcetera.com/home.html> ;
+  foaf:schoolHomepage <https://orcenikolov.edu.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Ivan" ;
+    foaf:mbox_sha1sum "ec8d53465bc78f3d7fc5557e2755902a8ff4e4c8" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/ivanandreski/is_computer_eshop/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Boban" ;
+    foaf:mbox_sha1sum "2e174fc4af304cdf46df6c8040d7748b9f0e0015" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/BobanNikolov/wbs-lab5/main/foaf.ttl>
+  ] .
