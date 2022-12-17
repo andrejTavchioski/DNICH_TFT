@@ -2,14 +2,14 @@
 @prefix ns0: <http://webns.net/mvcb/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl>
+<https://raw.githubusercontent.com/andrejTavchioski/DNICH_TFT/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
   foaf:maker <https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl#me> ;
   foaf:primaryTopic <https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<https://www.dropbox.com/s/b78ba1xkcfvnb2q/foaf.ttl#me>
+<https://raw.githubusercontent.com/andrejTavchioski/DNICH_TFT/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Andrej Tavchioski" ;
   foaf:title "Mr" ;
